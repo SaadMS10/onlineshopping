@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html>
+<head>
+<TITLE>Simple PHP Shopping Cart</TITLE>
+	<style>
+		#shopping-cart table{width:100%;background-color:#F0F0F0;}
+#shopping-cart table td{background-color:#FFFFFF;}
+
+.txt-heading{    
+	padding: 10px 10px;
+    border-radius: 2px;
+    color: #FFF;
+    background: #6aadf1;
+	margin-bottom:10px;
+}
+a.btnRemoveAction{color:#D60202;border:0;padding:2px 10px;font-size:0.9em;}
+
+
+#btnEmpty {
+	background-color: #ffffff;
+    border: #FFF 1px solid;
+    padding: 1px 10px;
+    color: #ff0000;
+    font-size: 0.8em;
+    float: right;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+#shopping-cart {margin-bottom:30px;}
+		
+		.a{
+		margin-left: 50%;
+	}
+	</style>
+	
+</head>
+<body>
+<div id="shopping-cart">
+<div class="txt-heading">Shopping Cart <a id="btnEmpty" href="#">Empty Cart</a></div>
+	
+<table cellpadding="10" cellspacing="1">
+<tbody>
+<tr>
+<th style="text-align:left;"><strong>Name</strong></th>
+<th style="text-align:left;"><strong>Code</strong></th>
+<th style="text-align:right;"><strong>Quantity</strong></th>
+<th style="text-align:right;"><strong>Price</strong></th>
+<th style="text-align:center;"><strong>Action</strong></th>
+</tr>	
+				<tr>
+				<td style="text-align:left;border-bottom:#F0F0F0 1px solid;">  </td>
+				<td style="text-align:left;border-bottom:#F0F0F0 1px solid;">  </td>
+				<td style="text-align:right;border-bottom:#F0F0F0 1px solid;">  </td>
+				<td style="text-align:right;border-bottom:#F0F0F0 1px solid;"> </td>
+				<td style="text-align:center;border-bottom:#F0F0F0 1px solid;"><a href="#" class="btnRemoveAction">Remove Item</a></td>
+				</tr>
+				
+
+<tr>
+<td colspan="5" align=right><strong>Total:</strong>Rs0 </td>
+</tr>
+</tbody>
+</table>		
+
+<a class="a" href="index.html" >BACK TO HOME </a>
+	</body>
+	</html>
